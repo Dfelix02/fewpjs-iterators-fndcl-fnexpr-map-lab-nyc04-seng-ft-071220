@@ -11,8 +11,9 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-let words = tutorials.split(" ");
+
 words = words.map(tutorial => {
+  let word = tutorial.split(" ");
   tutorial[0].toUpperCase();
   return tutorial;
 });
