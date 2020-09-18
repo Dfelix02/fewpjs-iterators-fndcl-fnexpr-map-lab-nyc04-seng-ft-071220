@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 
-let words = words.map(tutorial => {
+let words = tutorials.map(tutorial => {
   let word = tutorial.split(" ");
   tutorial[0].toUpperCase();
   return tutorial;
