@@ -14,13 +14,13 @@ let i = 0;
 let letters = [];
 const titleCased = tutorials.map((tutorial) => tutorial.split(" ").map(word =>{
   if (word[i]==word[0]){
-    letter.push(word[i].toUpperCase);
+    letters.push(word[i].toUpperCase);
   }
   else{
-    letter.push(word[i]);
+    letters.push(word[i]);
   }
   i++;
-  return letter;
+  return letters;
   
   }));
 
