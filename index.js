@@ -13,8 +13,6 @@ const tutorials = [
 
 const titleCased = tutorials.map((tutorial) => {
   tutorial.split(" ").map
-  console.log(tutorial)
-  }
   (word =>{ 
     if (typeof word == 'string'){
       word.charAt(0).toUpperCase() + word.slice(1)
