@@ -18,7 +18,7 @@ const titleCased = tutorials.map((tutorial) => {
       return word;
     
   })
-  words.join(" ");
+  caps.join(" ");
   console.log(words)
   return words;
   });
