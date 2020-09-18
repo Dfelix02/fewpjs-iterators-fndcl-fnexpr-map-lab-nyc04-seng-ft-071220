@@ -14,7 +14,7 @@ const tutorials = [
 const titleCased = tutorials.map((tutorial) => tutorial.split(" ").map(word =>{
   letter = word[0];
   letter = letter.toUpperCase();
-  word.replace(word[0],)
+  word.replace(word[0],letter)
   // word[0] = letter
   debbuger;
   return letter;
