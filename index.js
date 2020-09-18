@@ -13,7 +13,7 @@ const tutorials = [
 
 const titleCased = tutorials.map((tutorial) => tutorial.split(" ").map(word =>{
   letters = word[0];
-  return letters
+  return letters;
   
   }));
 
