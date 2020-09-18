@@ -14,8 +14,9 @@ const tutorials = [
 
 let words = tutorials.map(tutorial => {
   let word = tutorial.split(" ");
-  tutorial[0].toUpperCase();
-  return tutorial;
+  word = tutorial.map(()=>tutorial[0].toUpperCase())
+  
+  return word;
 });
-words.join(" ");
+
 console.log(words);
