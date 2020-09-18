@@ -17,4 +17,4 @@ words = words.map(tutorial => {
   return tutorial;
 });
 words.join(" ");
-console.log(titleCased);
+console.log(words);
