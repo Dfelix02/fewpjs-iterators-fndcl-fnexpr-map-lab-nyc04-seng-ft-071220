@@ -14,8 +14,7 @@ let i = 0;
 let letters = [];
 const titleCased = tutorials.map((tutorial) => tutorial.split(" ").map(word =>{
   if (word[i]==word[0]){
-    letter = word[0];
-    letter = letter.toUpperCase();
+    letter.push(word[i].toUpperCase);
   }
   else{
     letter.push(word[i]);
