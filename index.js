@@ -11,6 +11,7 @@ const tutorials = [
   'what is JSONP?'
 ];
 let i = 0;
+let letters = [];
 const titleCased = tutorials.map((tutorial) => tutorial.split(" ").map(word =>{
   if (word[i]==word[0]){
     letter = word[0];
