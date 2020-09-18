@@ -16,4 +16,5 @@ words = words.map(tutorial => {
   tutorial[0].toUpperCase();
   return tutorial;
 });
+words.join(" ");
 console.log(titleCased);
