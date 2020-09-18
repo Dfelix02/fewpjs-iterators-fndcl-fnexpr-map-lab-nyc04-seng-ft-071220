@@ -13,10 +13,13 @@ const tutorials = [
 
 const titleCased = tutorials.map((tutorial) => {
   words = tutorial.split(" ")
-  words. map(word =>{ if (typeof word == 'string'){
+  words.map(word =>{ if (typeof word == 'string'){
       word.charAt(0).toUpperCase() + word.slice(1)
       return word;
     }
-  }
-));
+  }}
+  words.join(" ");
+  console.log(words)
+  return words;
+  });
 console.log(titleCased)
