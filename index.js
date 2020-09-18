@@ -10,10 +10,11 @@ const tutorials = [
   'what is the difference between event capturing and bubbling?',
   'what is JSONP?'
 ];
-
+let i = 0;
 const titleCased = tutorials.map((tutorial) => tutorial.split(" ").map(word =>{
-  letter = word[0];
-  letter = letter.toUpperCase();
+  if (word[i]==word[0])
+    letter = word[0];
+    letter = letter.toUpperCase();
   word.replaceAt(0,letter)
   // word[0] = letter
   debbuger;
